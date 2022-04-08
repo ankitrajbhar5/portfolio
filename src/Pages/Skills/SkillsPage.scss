@@ -1,0 +1,253 @@
+.skillPage {
+  background: #111111;
+  .skillContainer {
+    padding-top: 64px;
+    padding-left: 133px;
+    padding-right: 133px;
+    .skillHead {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .skillText {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #ffffff;
+        margin-bottom: 2px;
+      }
+      .skillPara {
+        width: 55%;
+        margin-top: 24px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #b9b6b6;
+      }
+    }
+    .bar {
+      margin-top: 54px;
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 100px;
+      .leftBarArea {
+        width: 46%;
+        .pdBtm {
+          margin-bottom: 32px;
+        }
+        .figma {
+          .topBar {
+            width: 85% !important;
+          }
+        }
+        .html {
+          .topBar {
+            width: 70% !important;
+          }
+        }
+        .css {
+          .topBar {
+            width: 80% !important;
+          }
+        }
+      }
+      .rightBarArea {
+        width: 46%;
+        .pdBtm {
+          margin-bottom: 32px;
+        }
+        .java {
+          .topBar {
+            width: 70% !important;
+          }
+        }
+        .react {
+          .topBar {
+            width: 80% !important;
+          }
+        }
+        .native {
+          .topBar {
+            width: 40% !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .skillPage {
+    .skillContainer {
+      padding-left: 48px !important;
+      padding-right: 48px;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .skillPage {
+    .skillContainer {
+      padding-left: 24px;
+      padding-right: 24px;
+
+      .skillHead {
+        .skillPara {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .skillPage {
+    background: #111111;
+    .skillContainer {
+      padding-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+      .hairline {
+        width: 42px;
+      }
+      .skillHead {
+        .skillText {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .skillPara {
+          width: 100%;
+          margin-top: 16px;
+
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+      .bar {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        padding-bottom: 32px;
+        .skillTitle {
+          font-weight: 112;
+          font-size: 14px;
+        }
+        .leftBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+        .rightBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 575px) {
+  .skillPage {
+    background: #111111;
+    .skillContainer {
+      padding-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+      .hairline {
+        width: 42px;
+      }
+      .skillHead {
+        .skillText {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .skillPara {
+          width: 100%;
+          margin-top: 16px;
+
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+      .bar {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        padding-bottom: 32px;
+        .skillTitle {
+          font-weight: 112;
+          font-size: 14px;
+        }
+        .leftBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+        .rightBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 475px) {
+  .skillPage {
+    background: #111111;
+    .skillContainer {
+      padding-top: 40px;
+      padding-left: 24px;
+      padding-right: 24px;
+      .hairline {
+        width: 42px;
+      }
+      .skillHead {
+        .skillText {
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .skillPara {
+          width: 100%;
+          margin-top: 16px;
+
+          font-size: 14px;
+          line-height: 21px;
+        }
+      }
+      .bar {
+        margin-top: 24px;
+        flex-wrap: wrap;
+        padding-bottom: 32px;
+        .skillTitle {
+          font-weight: 112;
+          font-size: 14px;
+        }
+        .leftBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+        .rightBarArea {
+          width: 100%;
+          .pdBtm {
+            margin-bottom: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+  .aboutPage {
+  }
+}

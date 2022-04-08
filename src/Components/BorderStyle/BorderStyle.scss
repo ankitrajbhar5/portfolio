@@ -1,0 +1,14 @@
+.borderStyle {
+  .styleContainer {
+    display: flex;
+    align-items: center;
+    .hairline {
+      height: 2px;
+      width: 50px;
+      background: #b9b6b6;
+    }
+    .styleIcon {
+      padding: 0px 16px 0px 16px;
+    }
+  }
+}

@@ -1,0 +1,275 @@
+.aboutPage {
+  background: #1a1919;
+  .aboutContainer {
+    display: flex;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    .imgBox {
+      padding-left: 133px;
+    }
+    .responsive {
+      width: 100%;
+      height: auto;
+      box-shadow: -4px 4px 0px #ffffff;
+      border-radius: 8px;
+    }
+    .textContent {
+      width: 54%;
+      padding-left: 124px;
+      margin-right: 133px;
+      .head {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 48px;
+        color: #ffffff;
+        margin-bottom: 24px;
+      }
+      .para {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #b9b6b6;
+      }
+      .btnContainer {
+        display: flex;
+        margin-top: 24px;
+        .contactBtn {
+          margin-right: 24px;
+          .submitBtn {
+            background: white !important;
+            color: #000000 !important;
+          }
+          .submitBtn:hover {
+            background-color: #1b3237 !important;
+            color: #ffffff !important;
+          }
+        }
+        .downloadBtn {
+          .submitBtn {
+            background: transparent !important;
+          }
+          .submitBtn:hover {
+            background-color: #ffffff !important;
+            color: #000000 !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+  .aboutPage {
+    .aboutContainer {
+      .imgBox {
+        padding-left: 48px;
+      }
+      .textContent {
+        width: 54%;
+        padding-left: 48px;
+        margin-right: 48px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .aboutPage {
+    .aboutContainer {
+      flex-wrap: wrap;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+      .imgBox {
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 100%;
+      }
+      .responsive {
+        width: 100%;
+      }
+      .textContent {
+        width: 100%;
+        padding-left: 24px;
+        margin-right: 24px;
+        .head {
+          margin-top: 40px;
+
+          text-align: center;
+        }
+
+        .btnContainer {
+          justify-content: center;
+          .contactBtn {
+            margin-right: 8px;
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+          .downloadBtn {
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .aboutPage {
+    .aboutContainer {
+      flex-wrap: wrap;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+      .imgBox {
+        padding-left: 24px;
+        padding-right: 24px;
+        width: 100%;
+      }
+      .responsive {
+        width: 100%;
+      }
+      .textContent {
+        width: 100%;
+        padding-left: 24px;
+        margin-right: 24px;
+        .head {
+          margin-top: 40px;
+          margin-bottom: 16px;
+          text-align: center;
+
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .para {
+          font-size: 14px;
+        }
+        .btnContainer {
+          justify-content: center;
+          .contactBtn {
+            margin-right: 8px;
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+          .downloadBtn {
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 575px) {
+  .aboutPage {
+    .aboutContainer {
+      flex-wrap: wrap;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+      .imgBox {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .responsive {
+        width: 100%;
+      }
+      .textContent {
+        width: 100%;
+        padding-left: 24px;
+        margin-right: 24px;
+        .head {
+          margin-top: 40px;
+          margin-bottom: 16px;
+          text-align: center;
+
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .para {
+          font-size: 14px;
+        }
+        .btnContainer {
+          justify-content: center;
+          .contactBtn {
+            margin-right: 8px;
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+          .downloadBtn {
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 475px) {
+  .aboutPage {
+    .aboutContainer {
+      flex-wrap: wrap;
+
+      padding-top: 32px;
+      padding-bottom: 32px;
+      .imgBox {
+        padding-left: 24px;
+        padding-right: 24px;
+      }
+      .responsive {
+        width: 100%;
+      }
+      .textContent {
+        width: 100%;
+        padding-left: 24px;
+        margin-right: 24px;
+        .head {
+          margin-top: 40px;
+          margin-bottom: 16px;
+          text-align: center;
+
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+        }
+        .para {
+          font-size: 14px;
+        }
+        .btnContainer {
+          justify-content: center;
+          .contactBtn {
+            margin-right: 8px;
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+          .downloadBtn {
+            .submitBtn {
+              font-size: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+  .aboutPage {
+  }
+}

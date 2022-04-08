@@ -1,0 +1,41 @@
+.crausalStyle {
+  .react-multiple-carousel__arrow--right {
+    z-index: 2 !important;
+  }
+  .react-multiple-carousel__arrow--left {
+    z-index: 2 !important;
+  }
+}
+
+.card {
+  margin-left: 22px;
+  margin-right: 22px;
+  border-radius: 16px;
+  background: #b9b6b6;
+  .imgRadius {
+    border-radius: 16px;
+  }
+  .heading {
+    padding-top: 24px;
+    padding-left: 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  .para {
+    text-align: left;
+    padding: 8px 16px 48px 16px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .cardImg {
+    width: 100%;
+  }
+}

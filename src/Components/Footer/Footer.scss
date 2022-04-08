@@ -1,0 +1,90 @@
+.footer {
+  background-color: #111111;
+  .footerCotainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid #484747;
+
+    .textStyle {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 150%;
+      color: #b9b6b6;
+      margin-left: 24px;
+      margin-bottom: 0px;
+      .ankit {
+        color: #ffffff;
+      }
+    }
+    .iconContainer {
+      display: flex;
+      margin-right: 32px;
+      .iconItems {
+        padding-left: 24px;
+        a:link {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footer {
+    background-color: #111111;
+    .footerCotainer {
+      display: flex;
+
+      align-items: center;
+      flex-direction: column-reverse;
+
+      .textStyle {
+        font-size: 14px;
+        margin-left: 0px;
+        padding-top: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 575px) {
+  .footer {
+    background-color: #111111;
+    .footerCotainer {
+      display: flex;
+
+      align-items: center;
+      flex-direction: column-reverse;
+
+      .textStyle {
+        font-size: 14px;
+        margin-left: 0px;
+        padding-top: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 475px) {
+  .footer {
+    background-color: #111111;
+    .footerCotainer {
+      display: flex;
+
+      align-items: center;
+      flex-direction: column-reverse;
+
+      .textStyle {
+        font-size: 14px;
+        margin-left: 0px;
+        padding-top: 16px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+  .aboutPage {
+  }
+}

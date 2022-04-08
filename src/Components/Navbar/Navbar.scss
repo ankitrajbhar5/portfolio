@@ -1,0 +1,116 @@
+.navBar {
+  font-family: Poppins;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  background-image: url(../../img/bg.png);
+  opacity: 0.9;
+  .navbar {
+    padding-top: 8px;
+  }
+  .container {
+    margin: 0px 164px 0px 164px;
+    .navbar-brand {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 36px;
+    }
+    .navbar-nav {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 30px;
+      .nav-link {
+        padding-right: 0px;
+        padding-left: 32px;
+      }
+    }
+  }
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0) !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navBar {
+    .container {
+      margin: 0px 24px 0px 24px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .navBar {
+    .navbar {
+      padding-top: 8px;
+    }
+    .container {
+      margin: 0px 12px 0px 24px;
+      .navbar-brand {
+        font-size: 20px;
+      }
+      .navbar-nav {
+        .nav-link {
+          padding-left: 12px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 476px) and (max-width: 575px) {
+  .navBar {
+    .navbar {
+      padding-top: 8px;
+    }
+    .container {
+      margin: 0px 12px 0px 12px;
+      .navbar-brand {
+        font-size: 20px;
+      }
+      .navbar-nav {
+        .nav-link {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 475px) {
+  .navBar {
+    .navbar {
+      padding-top: 8px;
+    }
+    .container {
+      margin: 0px 12px 0px 12px;
+      .navbar-brand {
+        font-size: 20px;
+      }
+      .navbar-nav {
+        .nav-link {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 299px) {
+  .navBar {
+    .navbar {
+      padding-top: 8px;
+    }
+    .container {
+      margin: 0px 12px 0px 12px;
+      .navbar-brand {
+        font-size: 20px;
+      }
+      .navbar-nav {
+        .nav-link {
+          padding-left: 0px;
+        }
+      }
+    }
+  }
+}
